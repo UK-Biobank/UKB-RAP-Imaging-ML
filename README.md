@@ -8,7 +8,11 @@ This repository provides tools, workflows, and tutorials for analysing UK Bioban
 - It includes a step-by-step guide for running the applet efficiently across large numbers of files.
 - The strategy presented is scalable and generalisable, and can be adapted for other applets and bulk file processing tasks on the RAP.
 
-
+**MONAILabel-Slicer-JupyterLab**: Example notebooks demonstrating how to use MONAI Label and 3D Slicer on JupyterLAB for UKB-RAP. 
+- Includes three notebooks. Two of the notebooks are tailored for use with DICOM (MONAILabel_Slicer_DICOM_Demo) and NIFTI files (MONAILabel_Slicer_NIFTI_Demo). The third notebook is a short preliminary guide for extracting a sample UKB NIFTI file. 
+- MONAILabel_Slicer_NIFTI_Demo: provides guidance on how to start the MONAI server, run a whole brain segmentation, visualise, edit and save a segmentation label. Should be run after using the Pre_NIFTI_Registration_Demo.
+- MONAILabel_Slicer_DICOM_Demo: provides guidance on how to convert data to NIFTI format, use the DICOM database and start MONAI server. 
+- Pre_NIFTI_Registration_Demo: provides guidance on how to extract a random participant file, register a T1 defaced image to MNI space, and upload data back to your project. Should be run prior to using the MONAILabel_Slicer_NIFTI_Demo.
 
 ## Status
 
