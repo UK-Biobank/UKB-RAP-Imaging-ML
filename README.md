@@ -14,6 +14,10 @@ This repository provides tools, workflows, and tutorials for analysing UK Bioban
 - MONAILabel_Slicer_DICOM_Demo: provides guidance on how to convert data to NIFTI format, use the DICOM database and start MONAI server. 
 - Pre_NIFTI_Registration_Demo: provides guidance on how to extract a random participant file, register a T1 defaced image to MNI space, and upload data back to your project. Should be run prior to using the MONAILabel_Slicer_NIFTI_Demo.
 
+**pandora-fsl_glm:** A guide for running voxelwise regressions using `fsl_glm` (developed by FMRIB (OxCIN) Oxford) on UKB PANDORA imaging data via Docker and Swiss Army Knife.
+- It includes a Docker image that installs fsl and a wrapper script for running `fsl_glm` on PANDORA files.
+- It provides examples using DNAnexus Swiss Army Knife to launch jobs to run regressions reproducibly and at scale.
+
 ## Status
 
 This repository is under active development. We are continuously adding new material and refining existing workflows. Stay tuned for updates as we expand the toolkit and documentation.
